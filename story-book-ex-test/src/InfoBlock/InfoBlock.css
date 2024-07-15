@@ -1,0 +1,41 @@
+/* src/InfoBlock/InfoBlock.css */
+
+.info-block {
+    border-radius: 14px;
+    padding: 14px 14px 14px 20px;
+}
+
+.info-block_color_white {
+    background-color: #fff;
+}
+
+.info-block_color_red {
+    background-color: #dd0000;
+}
+
+.info-block__title, .info-block__caption {
+    font-family: lato, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.info-block__title {
+    font-weight: 500;
+}
+
+.info-block_color_white .info-block__title {
+    color: #2f3747;
+}
+
+.info-block_color_white .info-block__caption {
+    color: rgba(26, 43, 77, 0.6);
+}
+
+.info-block_color_red .info-block__title {
+    color: #fff;
+}
+
+.info-block_color_red .info-block__caption {
+    color: rgba(255, 255, 255, 0.85);
+}
